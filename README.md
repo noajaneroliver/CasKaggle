@@ -42,14 +42,12 @@ He començat per ajustar un DecissionTreeClassifier a les dades buscant els mill
 He fet el mateix amb el model de Logistic regression i els hyperparametres amb els que m'he quedat son:
 
 |MODEL|HYPERPARÀMETRES|ACCURACY|
-|Logistic Regression|Default|0.8710|
-
-
-|MODEL|HYPERPARÀMETRES|ACCURACY|
 |--|--|--|
 |Logistic Regression|Default|0.8710|0.3053|
 |Decision Tree|max_depth=11, criterion='entropy', max_features = 6, splitter = 'random'|0.9090|
 
 
+### Conslusions
+Si observem el Decission Tree que hem generat veiem que l'atribut amb més pes sobre la classificació de la felicitat al món és la Regió d'Europa Occidental, si hi pertanyen o no, i en segon lloc l'economia del païs. 
 
 
