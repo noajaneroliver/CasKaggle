@@ -42,7 +42,6 @@ He començat per ajustar un DecissionTreeClassifier a les dades buscant els mill
 He fet el mateix amb el model de Logistic regression i els hyperparametres amb els que m'he quedat son:
 
 |MODEL|HYPERPARÀMETRES|ACCURACY|
-|--|--|--|--|
 |Logistic Regression|Default|0.8710|
 |Decision Tree|max_depth=11, criterion='entropy', max_features = 6, splitter = 'random'|0.9090|
 
