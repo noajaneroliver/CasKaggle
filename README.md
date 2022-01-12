@@ -43,17 +43,13 @@ He fet el mateix amb el model de Logistic regression i els hyperparametres amb e
 
 |MODEL|HYPERPARÀMETRES|ACCURACY|
 |Logistic Regression|Default|0.8710|
+
+
+|MODEL|HYPERPARÀMETRES|ACCURACY|
+|--|--|--|
+|Logistic Regression|Default|0.8710|0.3053|
 |Decision Tree|max_depth=11, criterion='entropy', max_features = 6, splitter = 'random'|0.9090|
 
-
-|MODEL|HYPERPARÀMETRES|ACCURACY|TEMPS|
-|--|--|--|--|
-|Logistic Regression|Default|0.8710|0.3053|
-|Decision Tree|max_depth=13, random_state=42|0.9549|0.5662|
-|Random Forest|max_depth=25, random_state=0, n_estimators= 1200|0.9632|141.9058|
-|XGBoost|Default|0.9629|3.68607|
-|KNN|Default|0.9289|0.0120|
-|SVC|random_state=2|0.9552|224.3337|
 
 
 
